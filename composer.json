@@ -1,0 +1,48 @@
+{
+	"name": "camoo/toc",
+	"description": "Generates table of Contents from Text",
+	"homepage": "https://camoo.cm",
+	"type": "project",
+	"license": "MIT",
+	"require": {
+		"php": ">=7.1",
+		"ext-dom": "*"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable" : true,
+	"autoload": {
+		"psr-4": {
+			"Camoo\\Toc\\": "src"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.0"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CamooToc\\Test\\": "tests"
+		}
+	},
+	"authors": [
+		{
+			"name": "CAMOO SARL",
+			"email": "dev-team@camoo.sarl"
+		}
+	],
+	"keywords" : [
+		"CAMOO",
+		"Camoo.Hosting",
+		"Table of Contents generator",
+		"Table of Contents parser"
+	],
+	"suggest": {
+		"phpunit/phpunit": "Allows automated tests to be run without system-wide install."
+	},
+	"scripts" : {
+		"test": "phpunit --colors=always"
+	},
+	"support": {
+		"issues": "https://github.com/camoo/toc/issues",
+		"source": "https://github.com/camoo/toc"
+	}
+}
