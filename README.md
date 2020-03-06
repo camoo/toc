@@ -3,9 +3,9 @@
     <a href="https://travis-ci.com/camoo/toc" target="_blank">
         <img alt="Build Status" src="https://travis-ci.com/camoo/toc.svg?branch=master">
     </a>
-	<a href="https://codecov.io/gh/camoo/toc">
+	<!-- a href="https://codecov.io/gh/camoo/toc">
 		<img src="https://codecov.io/gh/camoo/toc/branch/master/graph/badge.svg" />
-	</a>
+	</a -->
 </p>
 
 ## Feature
