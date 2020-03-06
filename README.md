@@ -1,4 +1,12 @@
 # Generates Table Of Contents
+<p align="center">
+    <a href="https://travis-ci.com/camoo/toc" target="_blank">
+        <img alt="Build Status" src="https://travis-ci.com/camoo/toc.svg?branch=master">
+    </a>
+	<a href="https://codecov.io/gh/camoo/toc">
+		<img src="https://codecov.io/gh/camoo/toc/branch/master/graph/badge.svg" />
+	</a>
+</p>
 
 ## Feature
 This package parses a Html content with H-tags and generate Table of Contents with anchors in your content.
